@@ -1,4 +1,4 @@
-# My-Personal-Homepage
+# Nathaniel's Personal Homepage
 
 This repository serves as my personal website (Project 1) for the CS5610 Web Development Course.
 
