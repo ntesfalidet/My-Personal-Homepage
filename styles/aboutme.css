@@ -1,0 +1,200 @@
+/* This style sheet is used for the styles of the about me page (aboutme.html) */
+main {
+  color: #636363;
+}
+
+.aboutMeTitle {
+  text-align: center;
+  padding-bottom: 15px;
+  padding-top: 10px;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+section {
+  border-top: 1px solid black;
+}
+
+h2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 12px;
+}
+
+.timelineContainer {
+  border-left: 5px solid gainsboro;
+  margin-left: 4%;
+}
+
+.timeline-row {
+  margin-left: 1%;
+  margin-bottom: 40px;
+  /* Aligns elements in each timeline row vertically center */
+  align-items: center;
+}
+
+.image-col img {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.textTimelineContainer {
+  border-radius: 25px;
+  padding: 15px;
+  background-color: #e9f2f4;
+  box-shadow: 0 0 0 2px gainsboro;
+}
+
+.textTimelineContainer span {
+  font-style: italic;
+}
+
+.skillsContainer {
+  text-align: center;
+  padding-bottom: 35px;
+}
+
+.skills-row {
+  margin-left: 20%;
+}
+
+.skills-card {
+  background-color: #e9f2f4;
+  border: 3px solid gainsboro;
+  padding-top: 8px;
+}
+
+.skills-card img {
+  width: 50px;
+}
+
+.proficiencyClass {
+  visibility: hidden;
+}
+
+#proficiencyId1 {
+  color: green;
+  font-weight: bold;
+}
+
+#proficiencyId2 {
+  color: green;
+  font-weight: bold;
+}
+
+#proficiencyId3 {
+  color: green;
+  font-weight: bold;
+}
+
+#proficiencyId4 {
+  color: #c9c927;
+  font-weight: bold;
+}
+
+#proficiencyId5 {
+  color: #c9c927;
+  font-weight: bold;
+}
+
+#proficiencyId6 {
+  color: green;
+  font-weight: bold;
+}
+
+.projectsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 40px;
+}
+
+.projectCard {
+  width: 60%;
+  padding-bottom: 20px;
+}
+
+.projectTitle {
+  background-color: #dde5e6;
+  padding: 15px;
+  font-size: 22px;
+  font-style: bold;
+  border: 2px solid gainsboro;
+}
+
+.projectBody {
+  background-color: #fdfdfd;
+  padding: 15px;
+  border-left: 2px solid gainsboro;
+  border-right: 2px solid gainsboro;
+}
+
+.projectDescription {
+  padding-bottom: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.project-media {
+  margin-left: 9%;
+}
+
+#projectMedia1 {
+  width: 90%;
+}
+
+#projectMedia2 {
+  width: 50%;
+}
+
+#projectMedia3 {
+  width: 80%;
+}
+
+#projectMedia4 {
+  width: 90%;
+}
+
+.technologiesUsedClass {
+  background-color: #dde5e6;
+  padding: 15px;
+  font-size: 16px;
+  font-style: italic;
+  border: 2px solid gainsboro;
+}
+
+@media only screen and (min-width: 768px) {
+  /* Keep image column width the same when minimum width is 768px */
+  .image-col {
+    width: 130px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* Changes to text columns when maximum width is 768px */
+  .text-col {
+    width: 90%;
+    padding-top: 2%;
+  }
+
+  /* Changes to rows in technical skills grid when maximum width is 768px */
+  .skill-row {
+    margin-left: 5%;
+  }
+
+  /* Changes to skill card in technical skills grid when maximum width is 768px */
+  .skills-card {
+    width: 60%;
+  }
+
+  /* Changes to the second image elements for each project when maximum width is 768px */
+  #projectMedia1 {
+    padding-bottom: 17px;
+  }
+
+  #projectMedia4 {
+    padding-bottom: 17px;
+  }
+}

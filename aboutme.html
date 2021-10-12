@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Nathaniel Tesfalidet" />
+    <meta name="description" content="Nathaniel's Personal Homepage" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+    <link href="styles/style.css" rel="stylesheet" />
+    <link href="styles/aboutme.css" rel="stylesheet" />
+    <title>Nathaniel's Personal Homepage</title>
+    <link rel="icon" type="image/jpg" href="./resources/images/new_me.jpg" />
+  </head>
+  <body>
+    <!-- Navigation bar to navigate between home page and about me page -->
+    <nav class="navbar navbar-expand-lg sticky-top navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand">
+          <ul>
+            <li>
+              <img src="./resources/images/new_me.jpg" alt="profilePic" />
+            </li>
+            <li class="userName">
+              <span> Nathaniel T.</span>
+            </li>
+          </ul>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarText"
+          aria-controls="navbarText"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item" id="homeNav">
+              <a class="nav-link" aria-current="page" href="./index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./aboutme.html">About Me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Main body for about me page -->
+    <main>
+      <div class="container">
+        <div class="aboutMeTitle">
+          <h1>About Me</h1>
+        </div>
+        <section>
+          <h2>Education and Work Experience</h2>
+          <div class="timelineContainer">
+            <div class="row timeline-row">
+              <div class="col-md-2 image-col">
+                <img
+                  src="./resources/images/northeastern_logo.png"
+                  alt="NortheasternLogo"
+                />
+              </div>
+              <div class="col-md-6 col-xs-4 text-col">
+                <div class="textTimelineContainer">
+                  <span>Jan. 2019 - Dec. 2021</span>
+                  <div>
+                    Pursuing a master's degree in computer science at
+                    Northeastern University. I will be graduating in December
+                    2021.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row timeline-row">
+              <div class="col-md-2 image-col">
+                <img
+                  src="./resources/images/servicenow_logo.jpg"
+                  alt="ServiceNowLogo"
+                />
+              </div>
+              <div class="col-md-6 text-col">
+                <div class="textTimelineContainer">
+                  <span>May 2021 - Aug. 2021</span>
+                  <div>
+                    I joined ServiceNow's Digital Business Service Group as a
+                    software engineer intern. During my summer internship I
+                    built a notification system integrated with Microsoft Teams
+                    and a web interface for dynamically translating articles
+                    using ServiceNow's NowPlatform.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row timeline-row">
+              <div class="col-md-2 image-col">
+                <img src="./resources/images/UofI_logo.jpg" alt="UofILogo" />
+              </div>
+              <div class="col-md-6 text-col">
+                <div class="textTimelineContainer">
+                  <span>Aug. 2016 - Dec. 2019</span>
+                  <div>
+                    In December 2019, I received my bachelor's degree in
+                    computer science and mathematics at the University of
+                    Illinois at Urbana-Champaign.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row timeline-row">
+              <div class="col-md-2 image-col">
+                <img
+                  src="./resources/images/earthsense_logo.png"
+                  alt="EarthSenseLogo"
+                />
+              </div>
+              <div class="col-md-6 text-col">
+                <div class="textTimelineContainer">
+                  <span>Jun. 2019 - Dec. 2019</span>
+                  <div>
+                    I joined EarthSense as a software engineer intern. During my
+                    time at EarthSense, I worked on a full-stack application
+                    that transfers, analyzes, hosts and presents data collected
+                    by EarthSense robots.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row timeline-row">
+              <div class="col-md-2 image-col">
+                <img
+                  src="./resources/images/gartner_logo.png"
+                  alt="GartnerLogo"
+                />
+              </div>
+              <div class="col-md-6 text-col">
+                <div class="textTimelineContainer">
+                  <span>May 2018 - Aug. 2018</span>
+                  <div>
+                    I joined Gartner as a software engineer intern. During my
+                    time at Gartner, I implemented web interfaces for
+                    applications that presents machine learning processed data
+                    for Gartner's customers.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section>
+          <h2>Technical Skills</h2>
+          <div class="skillsContainer">
+            <div class="row skills-row">
+              <div class="col-md-3 skills-card" id="skillsCardId1">
+                <div>Javascript</div>
+                <img
+                  src="./resources/images/javascript_logo.png"
+                  alt="JSLogo"
+                />
+                <div class="proficiencyClass" id="proficiencyId1">Beginner</div>
+              </div>
+              <div class="col-md-3 skills-card" id="skillsCardId2">
+                <div>HTML</div>
+                <img src="./resources/images/html_logo.png" alt="HTMLLogo" />
+                <div class="proficiencyClass" id="proficiencyId2">Beginner</div>
+              </div>
+              <div class="col-md-3 skills-card" id="skillsCardId3">
+                <div>CSS</div>
+                <img src="./resources/images/css_logo.png" alt="CSSLogo" />
+                <div class="proficiencyClass" id="proficiencyId3">Beginner</div>
+              </div>
+            </div>
+            <div class="row skills-row">
+              <div class="col-md-3 skills-card" id="skillsCardId4">
+                <div>Java</div>
+                <img src="./resources/images/java_logo.png" alt="JavaLogo" />
+                <div class="proficiencyClass" id="proficiencyId4">
+                  Intermediate
+                </div>
+              </div>
+              <div class="col-md-3 skills-card" id="skillsCardId5">
+                <div>Python</div>
+                <img
+                  src="./resources/images/python_logo.png"
+                  alt="PythonLogo"
+                />
+                <div class="proficiencyClass" id="proficiencyId5">
+                  Intermediate
+                </div>
+              </div>
+              <div class="col-md-3 skills-card" id="skillsCardId6">
+                <div>C++</div>
+                <img
+                  src="./resources/images/c-plus-plus-logo.png"
+                  alt="CPlusPlusLogo"
+                />
+                <div class="proficiencyClass" id="proficiencyId6">Beginner</div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section>
+          <h2>Projects</h2>
+          <div class="projectsContainer">
+            <div class="projectCard">
+              <div class="projectTitle">Memoir of a Gamer</div>
+              <div class="projectBody">
+                <div class="projectDescription">
+                  I was motivated to work on a gaming project that clashed
+                  multiple gaming genres, such as the platformer and shooter
+                  genres, into one experience. I developed a mobile game for
+                  Android that combines multiple gaming genres and implements a
+                  reward system when players progress through the game. This
+                  gaming project also has an online component that saves the
+                  status of player's in-game items and currency.
+                </div>
+                <div class="row project-media">
+                  <div class="col-md-6">
+                    <img
+                      id="projectMedia1"
+                      src="./resources/gifs/memoir-of-a-gamer-1.gif"
+                      alt="memoirGif1"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <img
+                      id="projectMedia2"
+                      src="./resources/gifs/memoir-of-a-gamer-2.gif"
+                      alt="memoirGif2"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="technologiesUsedClass">
+                Technologies used: Firebase, C#, Unity, and Android Studio
+              </div>
+            </div>
+          </div>
+          <div class="projectsContainer">
+            <div class="projectCard">
+              <div class="projectTitle">Distributed Chat System</div>
+              <div class="projectBody">
+                <div class="projectDescription">
+                  This project revolves around a chat application built on a
+                  distributed systems. The chat application support a
+                  one-to-one, one-to-many and many-to-many communications. A
+                  one-to-many and many-to-many communications utilizes hosted
+                  rooms where users can join a room to communicate with each
+                  other.
+                </div>
+                <div class="row project-media">
+                  <div class="col-md-6">
+                    <img
+                      id="projectMedia4"
+                      src="./resources/images/distributed_chat_1.png"
+                      alt="chatImage1"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <img
+                      id="projectMedia3"
+                      src="./resources/images/distributed_chat_2.png"
+                      alt="chatImage2"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="technologiesUsedClass">
+                Technologies used: ReactJS, Redis, Node.js and MongoDB
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <script src="./scripts/main.js"></script>
+    <footer>
+      <div>Nathaniel Tesfalidet 2021 ©</div>
+    </footer>
+  </body>
+</html>

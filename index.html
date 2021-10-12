@@ -3,13 +3,151 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta name="author" content="Nathaniel Tesfalidet" />
+    <meta name="description" content="Nathaniel's Personal Homepage" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+    <link href="styles/style.css" rel="stylesheet" />
+    <link href="styles/index.css" rel="stylesheet" />
+    <title>Nathaniel's Personal Homepage</title>
+    <link rel="icon" type="image/jpg" href="./resources/images/new_me.jpg" />
   </head>
   <body>
-    <div class="div1">
-      <div class="div2">
-        <p>Hello World</p>
+    <!-- Navigation bar to navigate between home page and about me page -->
+    <nav class="navbar navbar-expand-lg sticky-top navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand">
+          <ul>
+            <li>
+              <img src="./resources/images/new_me.jpg" alt="profilePic" />
+            </li>
+            <li class="userName">
+              <span> Nathaniel T.</span>
+            </li>
+          </ul>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarText"
+          aria-controls="navbarText"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item" id="homeNav">
+              <a class="nav-link" aria-current="page" href="./index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./aboutme.html">About Me</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
+    </nav>
+    <!-- Main body for home page -->
+    <main>
+      <div class="container">
+        <h1>Nathaniel Tesfalidet</h1>
+        <h2>Graduate Student - Upcoming SDE at ServiceNow</h2>
+        <img
+          class="profileImage"
+          src="./resources/images/new_me.jpg"
+          alt="profilePic"
+        />
+        <div class="descriptionClass">
+          <p>
+            Hi there! My name is Nathaniel Tesfalidet and I'm finishing up my
+            master's degree in Computer Science at Northeastern University. I
+            have the priviledge to continue working at ServiceNow as a software
+            engineer after having an amazing experience at ServiceNow during my
+            summer 2021 internship. I have interests in exploring all facets and
+            areas of tech such as mobile, web, and game development as well as
+            distributed systems. During my spare time I enjoy gaming, making
+            musical beats and taking care of my succulents. You can check out my
+            resume <a href="./resources/resume.pdf" target="_blank">here</a>.
+          </p>
+        </div>
+        <div class="hobbiesPicturesContainer">
+          <div class="row">
+            <div class="col-md-4 hobbyPictureCard" id="hobbyPicId1">
+              <img src="./resources/gifs/videogame.gif" alt="gameGif" />
+            </div>
+            <div class="col-md-4 hobbyPictureCard" id="hobbyPicId2">
+              <img
+                src="./resources/images/my_succulents.jpg"
+                alt="plantImage"
+              />
+            </div>
+            <div class="col-md-4 hobbyPictureCard" id="hobbyPicId3">
+              <img src="./resources/gifs/music.gif" alt="musicGif" />
+            </div>
+          </div>
+        </div>
+
+        <hr />
+        <div class="contactClass">
+          <h3>Contact</h3>
+          <div>Please feel free to reach out to me via:</div>
+          <div class="contactsListContainer">
+            <div class="row">
+              <div class="col-md-1 contact">
+                <a href="mailto:ntnathaniel@gmail.com" target="_blank">
+                  <img
+                    src="./resources/images/email_logo.jpg"
+                    alt="emailLogo"
+                  />
+                </a>
+              </div>
+              <div class="col-md-1 contact">
+                <a
+                  href="https://www.linkedin.com/in/nathaniel-tesfalidet-7a0385118/"
+                  target="_blank"
+                >
+                  <img
+                    src="./resources/images/linkedin_logo.jpg"
+                    alt="linkedInLogo"
+                  />
+                </a>
+              </div>
+              <div class="col-md-1 contact">
+                <a href="https://github.com/ntesfalidet" target="_blank">
+                  <img
+                    src="./resources/images/github_logo.jpg"
+                    alt="githubLogo"
+                  />
+                </a>
+              </div>
+              <div class="col-md-1 contact">
+                <a href="https://twitter.com/nate_tesfalidet" target="_blank">
+                  <img
+                    src="./resources/images/twitter_logo.jpg"
+                    alt="twitterLogo"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div>Nathaniel Tesfalidet 2021 ©</div>
+    </footer>
   </body>
 </html>
