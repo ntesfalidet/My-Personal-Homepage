@@ -36,3 +36,9 @@ Nathaniel Tesfalidet
 ![About Me page screenshot 1](./resources/images/screenshots/screenshot3.jpg)
 ![About Me page screenshot 2](./resources/images/screenshots/screenshot4.jpg)
 
+- Kennedy's code review comments:
+  - Awesome project, Nathaniel! 
+  - I appreciate how you made your website straight to the point, but also rich with content. 
+  - I like the division of content between your "Index" and "About Me" pages. Your index page paints a more personal picture of who you are and shares your interests and hobbies, while your about me page divides deeper into your technical skills and professional experience.
+ - Have you considered adding direct links to the repositories of the projects you listed? It may make it easier for anyone who's interested to directly check them out without having to navigate through your github.
+ - Your files look clean and well-structured! 
